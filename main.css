@@ -45,7 +45,7 @@ h1, h2, h3, h4, p {
     text-align: center;
 }
 
-.project-container {
+.site-container {
     /* display: grid;
     grid-gap: 50px 50px;
     grid-template-columns: auto auto auto;
@@ -57,11 +57,11 @@ h1, h2, h3, h4, p {
     row-gap: 1em;
 }
 
-.project {
+.site {
     margin: 1em;
-    background: #e27a5b;
+    background: #80727b;
     overflow: hidden;
-    border-radius: 0.2em;
+    border-radius: 1.5em;
     border-style: solid;
     border-width: 0.075rem;
     border-color: #d6d6d6;
@@ -69,25 +69,15 @@ h1, h2, h3, h4, p {
     transition: all 200ms ease;  
 
 
-    width: 25em;
-    height: 25rem;
+    width: 10em;
+    height: 4em;
     
 }
 
-.project img {
-    display: block;
-    width: 100%;
-    height: auto;
-    box-sizing: content-box;
-}
-
-.project:hover {
+.site:hover {
     transform: scale(1.15);
+    background: #545643;
     border-color: rgb(252, 0, 0);
     color:crimson;
     border-width: 0.1rem;
-}
-
-.project p {
-    margin: auto
 }
