@@ -1,8 +1,29 @@
-# arefmalek.github.io
+# vue_portfolio
 
-This was my first actual trial at making a site - its all in vanilla HTML and CSS, so I'm sure it'll improve with some time
+TODO: 
+- fix up contact me form further
+- Make the About me page nicer
+- Start to CSS the page up, and get it ready for production
 
-## renovations!
-I am leaving this as a reminder that I want to renovate this site to become
-a deployable Python Flask app - this it the article that got me interested in
-it: https://medium.com/@francescaguiducci/how-to-build-a-simple-personal-website-with-python-flask-and-netlify-d800c97c283d
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
