@@ -2,7 +2,7 @@
   <b-container>
     <h2>Contact Me</h2>
     <b-form
-      action="https://formspree.io/f/FORM_ID"
+      action="https://formspree.io/f/xzbyvnza"
       method="POST"
       class="mx-auto"
     >
@@ -30,6 +30,9 @@ export default {};
 </script>
 
 <style scoped>
+.b-form-group {
+  max-width: 30rem;
+}
 form {
   text-align: left;
   min-width: 20em;
