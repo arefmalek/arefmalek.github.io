@@ -18,10 +18,10 @@
                 </b-card-text>
 
                 <b-card-text>
-                    I am passionate about programming, and I see it almost 
+                    I am passionate about programming, and I see it  
                     as a form of creative expression. Everyday I endeavor to learn 
                     more, whether that mean exploring new regression models or 
-                    new frameworks for developing code. I just love what I do :)
+                    new frameworks for developing code. Really, I just love what I do :)
                 </b-card-text>
 
                 <b-card-text>
@@ -41,22 +41,36 @@
             >
                 <b>2021</b>
                 <b-card-text>
-                    <b> AI / ML Intern</b> at NASA's Langley Research Center <br>
-                    Outstanding First-Year
-                    Engineer by Purdue's Vertically integrated 
-                    Projects (VIP) group <br>
+                    <ul>
+                        <li>
+                            <b>SWE Intern</b> at NASA's Langley Research Center <br>
+                        </li>
+                        <li>
+                            <b>Outstanding First-Year student </b> from 
+                            Purdue's VIP program
+                        </li>
+                        <li>
+                            Joined Purdue's Computer Vision team for the <b-link href="https://www.indyautonomouschallenge.com/">IAC</b-link>
+                        </li>
+                    </ul>
                 </b-card-text>
                 <b>2020</b>
                 <b-card-text>
-                    Started studying CS at Purdue <br>
-                    Began research under Dr. Gamal and AMP
+                    <ul>
+                        <li>
+                            Started studying CS at Purdue
+                        </li>
+                        <li>
+                            Began research under Dr. Gamal for AMP
+                        </li>
+                    </ul>
                 </b-card-text>
 
                 <b>Future</b>
                 <b-card-text>
                     TBD - contact me if interested ;)
                 </b-card-text>
-                <b-button href="https://drive.google.com/file/d/1JIY8z4uurnoh8hvsu02c5kwftyaAtVmP/view?usp=sharing" 
+                <b-button href="https://drive.google.com/file/d/101hWcw9is4HWgL6XYwKyIWw3HgCFGhbX/view?usp=sharing" 
                     variant="primary">
                     Resume
                 </b-button>            
@@ -71,17 +85,21 @@
                 align="center"
             >
                 <b-card-text>
-                    Outside of school, I love to stay active! That means lots of hiking, biking, and (recently) basketball!
+                    Outside of school, I love to stay active! In my free time I love to hike, bike, and play basketball with friends.
+
                 </b-card-text>
                 <b-card-text>
                     I'm always looking for new things to try, and right now I'm 
-                    eyeing a YouTube Channel and an electric skateboard (in progress!). <br>
-                    Some future plans involve utilizing an Arduino I won a few months 
-                    ago and hopefully applying some Neural Network
-                    with it - stay tuned!
+                    eyeing a YouTube Channel and an electric skateboard. <br>
+                    Future plans include a trading webapp and using an
+                    Arduino I won a few months ago - stay tuned ;)
                 </b-card-text>
                 <b-card-text>
                     I'm a pretty big anime fan, some of my favorites are Attack on Titan, Naruto, and Evangelion
+                </b-card-text>
+                <b-card-text>
+                    I made it on NASA's 
+                    <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link>!
                 </b-card-text>
             </b-card>
     </b-card-group>
@@ -90,7 +108,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data: function () {
+        return {}
+    }
+};
 </script>
 
 <style scoped>

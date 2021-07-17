@@ -1,6 +1,7 @@
 <template>
   <b-container>
     <h2>Contact Me</h2>
+    <h5>Try it, it really works</h5>
     <b-form
       action="https://formspree.io/f/xzbyvnza"
       method="POST"
