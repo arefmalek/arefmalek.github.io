@@ -97,7 +97,7 @@ export default {
           alt: "Image",
           link: "https://github.com/arefmalek/arefmalek.github.io",          
           description:
-            "My website! Currently experimenting in Vue.js as a Single Page Application (SPA).",
+            "You're looking at it. My website, currently deployed in Vue.js as a Single Page Application (SPA)",
         },
         {
           name: "Frank Ocean Bot",

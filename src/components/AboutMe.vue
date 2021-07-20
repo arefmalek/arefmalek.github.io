@@ -43,14 +43,15 @@
                 <b-card-text>
                     <ul>
                         <li>
-                            <b>SWE Intern</b> at NASA's Langley Research Center <br>
+                            SWE <b>Intern at NASA</b>'s Langley Research Center <br>
                         </li>
                         <li>
-                            <b>Outstanding First-Year student </b> from 
-                            Purdue's VIP program
+                            <b>Outstanding First-Year </b> 
+                            <b-link href="https://engineering.purdue.edu/VIP/news/vip-awards-announced-for-spring-2021">award </b-link> 
+                            from Purdue's VIP program
                         </li>
                         <li>
-                            Joined Purdue's Computer Vision team for the <b-link href="https://www.indyautonomouschallenge.com/">IAC</b-link>
+                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">Black &amp; Gold</b-link> racing team.
                         </li>
                     </ul>
                 </b-card-text>
@@ -61,7 +62,7 @@
                             Started studying CS at Purdue
                         </li>
                         <li>
-                            Began research under Dr. Gamal for AMP
+                            Began research under <b-link active href="https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html">AMP</b-link>.
                         </li>
                     </ul>
                 </b-card-text>
@@ -99,7 +100,7 @@
                 </b-card-text>
                 <b-card-text>
                     I made it on NASA's 
-                    <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link>!
+                    <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link> (Tip #7)! 
                 </b-card-text>
             </b-card>
     </b-card-group>
