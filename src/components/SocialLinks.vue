@@ -29,7 +29,7 @@ export default {
         },
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/aref-malek-78b3651b8/",
+          url: "https://www.linkedin.com/in/aref-malek/",
           icon: "Linkedin",
         },
         {

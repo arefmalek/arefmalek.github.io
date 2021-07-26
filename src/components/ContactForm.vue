@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <h2>Contact Me</h2>
-    <h5>Yes, it really works! Try it :)</h5>
+    <h5>Try it! It really works :)</h5>
     <b-form
       action="https://formspree.io/f/xzbyvnza"
       method="POST"
@@ -37,6 +37,6 @@ export default {};
 form {
   text-align: left;
   min-width: 20em;
-  max-width: 60rem;
+  max-width: 45rem;
 }
 </style>

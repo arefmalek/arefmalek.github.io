@@ -25,7 +25,7 @@
                 </b-card-text>
 
                 <b-card-text>
-                    In the near future, I want to contribute to the autonomous
+                    In the near future, I plan on contributing to the autonomous
                     vehicle field, as it's the most practical marriage of computer vision and 
                     software engineering.
                 </b-card-text>
@@ -51,7 +51,7 @@
                             from Purdue's VIP program
                         </li>
                         <li>
-                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">Black &amp; Gold</b-link> racing team.
+                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">Black &amp; Gold</b-link> autonomous racing team.
                         </li>
                     </ul>
                 </b-card-text>
@@ -86,8 +86,13 @@
                 align="center"
             >
                 <b-card-text>
-                    Outside of school, I love to stay active! In my free time I love to hike, bike, and play basketball with friends.
-
+                    I've been highlighted on NASA's 
+                    <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link> (Tip #7)
+                    and 
+                    <b-link href="https://www.youtube.com/watch?v=h3lrs8xsCjk">Youtube</b-link>! 
+                </b-card-text>
+                <b-card-text>
+                    Outside of school, I love to hike, bike, and hang out with friends.
                 </b-card-text>
                 <b-card-text>
                     I'm always looking for new things to try, and right now I'm 
@@ -97,10 +102,6 @@
                 </b-card-text>
                 <b-card-text>
                     I'm a pretty big anime fan, some of my favorites are Attack on Titan, Naruto, and Evangelion
-                </b-card-text>
-                <b-card-text>
-                    I made it on NASA's 
-                    <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link> (Tip #7)! 
                 </b-card-text>
             </b-card>
     </b-card-group>
@@ -117,8 +118,13 @@ export default {
 </script>
 
 <style scoped>
+.b-link {
+    text-decoration: blueviolet;
+} :hover {
+    text-decoration-color: cornflowerblue;
+}
 .card {
-    width: 20em;
+    width: 20rem;
     margin: 1em;
 }
 </style>
