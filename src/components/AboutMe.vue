@@ -51,7 +51,7 @@
                             from Purdue's VIP program
                         </li>
                         <li>
-                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">Black &amp; Gold</b-link> autonomous racing team.
+                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">B &amp; G</b-link> autonomous racing team.
                         </li>
                     </ul>
                 </b-card-text>
@@ -62,7 +62,7 @@
                             Started studying CS at Purdue
                         </li>
                         <li>
-                            Began research under <b-link active href="https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html">AMP</b-link>.
+                            Began working with <b-link active href="https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html">AMP</b-link>.
                         </li>
                     </ul>
                 </b-card-text>
@@ -89,7 +89,7 @@
                     I've been highlighted on NASA's 
                     <b-link href="https://www.instagram.com/p/CRRUMdujBiU/">Instagram</b-link> (Tip #7)
                     and 
-                    <b-link href="https://www.youtube.com/watch?v=h3lrs8xsCjk">Youtube</b-link>! 
+                    <b-link href="https://youtu.be/h3lrs8xsCjk?t=420">Youtube</b-link>! 
                 </b-card-text>
                 <b-card-text>
                     Outside of school, I love to hike, bike, and hang out with friends.

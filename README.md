@@ -1,4 +1,4 @@
-# vue_portfolio
+# Website
 
 The second iteration of my website! Written in Vue.js as a Single Page
 application. This is a more forced version of the site, since I wrote this up
