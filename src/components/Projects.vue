@@ -61,9 +61,10 @@ export default {
           alt: "Image",
           link: "https://github.com/Navigation-Team-AMP/autonomous_car_simulation",
           description:
-            "Developing a neural network in PyTorch to control a vehicle. \
-            Current approach utilizes a waypoint-based implementation, \
-            Looking into implementing the YOLO CNN in the near future",
+            "Developed a convolutional neural network in PyTorch to control a vehicle. \
+            We used a waypoint-based implementation inspired by PilotNet. \
+            This project also required a backend web server \
+            which was built with Flask and SocketIO",
           additional_info: ""
         },
         {
@@ -97,7 +98,7 @@ export default {
           alt: "Image",
           link: "https://github.com/arefmalek/arefmalek.github.io",          
           description:
-            "You're looking at it. My website, currently deployed in Vue.js as a Single Page Application (SPA)",
+            "You're looking at it! This is my personal website, currently deployed in Vue.js as a Single Page Application (SPA)",
         },
         {
           name: "Frank Ocean Bot",
@@ -127,7 +128,7 @@ export default {
     overflow: hidden;
     border-radius: 0.2em;
     border-style: solid;
-    border-width: 0.075rem;
+    border-width: 0.01rem;
     border-color: #0C8346;
     box-shadow: 5px; 
     transition: all 200ms ease;  

@@ -1,5 +1,6 @@
 # Website
 
+## Description
 The second iteration of my website! Written in Vue.js as a Single Page
 application. This is a more forced version of the site, since I wrote this up
 on a different repo originally, but you should be able to pick apart most of
