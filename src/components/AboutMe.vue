@@ -70,11 +70,8 @@
                 <b>Future</b>
                 <b-card-text>
                     TBD - contact me if interested ;)
-                </b-card-text>
-                <b-button href="https://drive.google.com/file/d/101hWcw9is4HWgL6XYwKyIWw3HgCFGhbX/view?usp=sharing" 
-                    variant="primary">
-                    Resume
-                </b-button>            
+                    Resume available upon request, use the Contact form!
+                </b-card-text>          
             </b-card>
 
             <b-card 

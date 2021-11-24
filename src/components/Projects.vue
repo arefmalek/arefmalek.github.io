@@ -61,11 +61,20 @@ export default {
           alt: "Image",
           link: "https://github.com/Navigation-Team-AMP/autonomous_car_simulation",
           description:
-            "Developed a convolutional neural network in PyTorch to control a vehicle. \
-            We used a waypoint-based implementation inspired by PilotNet. \
-            This project also required a backend web server \
-            which was built with Flask and SocketIO",
+            "My first research project at Purdue! \
+            The ConvNet predicts paths for cars to drive upon \
+            inspired by Nvidia's Pilotnet. \
+            On the backend, we connected out network using websockets and Flask",
           additional_info: ""
+        },
+        {
+          name: "AirDraw",
+          img_src: require("../assets/projects/airdraw.gif"),
+          alt: "Image",
+          link: "https://github.com/arefmalek/airdraw",
+          description:
+            "An entirely vision-based drawing application, no mouse needed! \
+            Built with OpenCV and MediaPipe",
         },
         {
           name: "Electoral Analysis",
