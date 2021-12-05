@@ -31,7 +31,7 @@
         :class="mb-2"
 
         :header="project.name"
-        header-bg-variant="danger"
+        header-bg-variant="primary"
         header-text-variant="white"
 
         border-variant="dark"

@@ -43,7 +43,7 @@
                 <b-card-text>
                     <ul>
                         <li>
-                            SWE <b>Intern at NASA</b>'s Langley Research Center <br>
+                            AI <b>Intern at NASA</b>'s Langley Research Center <br>
                         </li>
                         <li>
                             <b>Outstanding First-Year </b> 

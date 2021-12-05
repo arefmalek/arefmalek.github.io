@@ -14,7 +14,7 @@
       <b-button
         v-for="section in sections"
         :key="section.name"
-        variant="warning"
+        variant="dark"
         size="lg"
         style="margin: 0.75em"
         v-b-toggle="section.id"
@@ -59,11 +59,11 @@ export default {
           id: "collapse-projects",
         },
         {
-          name: "About me",
+          name: "About Me",
           id: "collapse-about-me",
         },
         {
-          name: "Contact me",
+          name: "Contact Me",
           id: "collapse-contact-me",
         },
       ]
@@ -71,7 +71,8 @@ export default {
   }
 };
 </script>
-SocialLinks<style lang="scss">
+
+<style lang="scss">
 template {
   background: #7cc6fe;
 }
