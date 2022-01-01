@@ -31,12 +31,13 @@ export default {};
 </script>
 
 <style scoped>
-.b-form-group {
-  max-width: 30rem;
+
+button {
+  margin-top: 1em;
 }
 form {
   text-align: left;
   min-width: 20em;
-  max-width: 45rem;
+  max-width: 40rem;
 }
 </style>
