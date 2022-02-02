@@ -39,6 +39,14 @@
                 header-text-variant="white"
                 align="center"
             >
+                <b>2022</b>
+                <b-card-text>
+                    <ul>
+                        <li>
+                            Undergrad TA for CS250 - Computer Architecture<br>
+                        </li>
+                    </ul>
+                </b-card-text>
                 <b>2021</b>
                 <b-card-text>
                     <ul>
@@ -50,9 +58,6 @@
                             <b-link href="https://engineering.purdue.edu/VIP/news/vip-awards-announced-for-spring-2021">award </b-link> 
                             from Purdue's VIP program
                         </li>
-                        <li>
-                            Joined the <b-link href="https://www.blackandgoldautonomousracing.com/">B &amp; G</b-link> autonomous racing team.
-                        </li>
                     </ul>
                 </b-card-text>
                 <b>2020</b>
@@ -62,7 +67,7 @@
                             Started studying CS at Purdue
                         </li>
                         <li>
-                            Began working with <b-link active href="https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html">AMP</b-link>.
+                            Began working with <b-link active href="https://web.ics.purdue.edu/~elgamala/AMP-VIP/index.html">AMP VIP</b-link>.
                         </li>
                     </ul>
                 </b-card-text>
