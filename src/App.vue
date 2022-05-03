@@ -1,9 +1,9 @@
 <template >
   <div id="app">
     <b-img 
-      src="./assets/ref.jpg" 
+      src="./assets/sully_pic_ref.jpeg" 
       rounded 
-      width="200px"
+      width="250px"
     ></b-img>
     <h1>Aref Malek</h1>
     <h3>CS Honors @ Purdue</h3>
