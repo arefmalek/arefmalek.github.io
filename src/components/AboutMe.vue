@@ -43,6 +43,11 @@
                 <b-card-text>
                     <ul>
                         <li>
+                            SDE Intern on AWS 
+                            <b-link href="https://aws.amazon.com/panorama/">Panorama</b-link> 
+                            <br>
+                        </li>
+                        <li>
                             Undergrad TA for CS250 - Computer Architecture<br>
                         </li>
                     </ul>

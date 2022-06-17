@@ -7,6 +7,7 @@
     ></b-img>
     <h1>Aref Malek</h1>
     <h3>CS Honors @ Purdue</h3>
+    <h3>SDE Intern @ AWS AI</h3>
     
     <social-links />
 <div class="accordion" role="tablist">

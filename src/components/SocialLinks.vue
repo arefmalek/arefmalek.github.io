@@ -36,6 +36,11 @@ export default {
           name: "Blog",
           url: "https://arefmalek.github.io/blog/",
           icon: "Pencil",
+        },
+        {
+          name: "Food Tiktok",
+          url: "https://www.tiktok.com/@halalinthebay",
+          icon: "Music-Note",
         }
       ],
     };
