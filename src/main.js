@@ -13,11 +13,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
+
+// icons for social link thing
 Vue.component("BIcon", BIcon)
 Vue.component("BIconGithub", BIconGithub)
 Vue.component("BIconLinkedin", BIconLinkedin)
 Vue.component("BIconPencil", BIconPencil)
-
 Vue.component("BIconMusicNote", BIconMusicNote)
 Vue.component("BIconYoutube", BIconYoutube)
 Vue.component('b-card', BCard)
