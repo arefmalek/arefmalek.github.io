@@ -80,7 +80,6 @@
                 <b>Future</b>
                 <b-card-text>
                     TBD - contact me if interested ;)
-                    Resume available upon request, use the Contact form!
                 </b-card-text>          
             </b-card>
 

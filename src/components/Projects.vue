@@ -86,6 +86,15 @@ export default {
             An analysis that exposes the Electoral College's disenfranchisement of minorities, women, and the impoverished.",
         },
         {
+          name: "Sorting Visualizer",
+          img_src: require("../assets/projects/sorting_visualizer.gif"),
+          alt: "Image",
+          link: "https://github.com/arefmalek/Sorting_Visualizer",
+          description:
+            "Sorting Visualizer I made as a toy project. \
+            Still pretty buggy, but was a blast to make.",
+        },
+        {
           name: "Demographics CNN",
           img_src: require("../assets/projects/Race_CNN.png"),
           alt: "Image",
