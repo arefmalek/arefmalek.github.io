@@ -156,11 +156,11 @@ params:
         title: "About Me"
         image: "/images/bay_of_fire.jpg"
         content: |-
-            I am a student who is just trying to maximize my learnings. 
+            CS Senior @ Purdue, previously interning at Tesla, NASA, and AWS. 
             In my final semester of CS, I'm hoping to learn a bunch more about fundamental CS topics, specifically Compilers and Databases! 
             In the past, I really enjoyed coursework with ML, Algorithms, and OS, but I'm trying to get out of my comfort zone :).
 
-            Professionally I've been all over the place, recently I've recently just completed an internship at Tesla where I worked a a full-stack dev on the Energy Product Software Team.
+            Professionally I've been all over the place, I've recently just completed an internship at Tesla where I worked as a full-stack dev on the Energy Product Software Team.
             I have realized that I learn best by doing, and my 'doing'-focuses primarily on my foundations of CS until I graduate, and hopefully tackling fun problems aftewards!
         skills:
             enable: true
@@ -364,7 +364,7 @@ params:
         socialNetworks:
             github: https://github.com/arefmalek
             linkedin: https://linkedin.com/in/aref-malek
-            twitter: https://twitter.com
+            # twitter: https://twitter.com
 
     # List pages like blogs and posts
     listPages:
