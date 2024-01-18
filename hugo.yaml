@@ -156,12 +156,14 @@ params:
         title: "About Me"
         image: "/images/bay_of_fire.jpg"
         content: |-
-            CS Senior @ Purdue, previously interning at Tesla, NASA, and AWS. 
-            In my final semester of CS, I'm hoping to learn a bunch more about fundamental CS topics, specifically Compilers and Databases! 
-            In the past, I really enjoyed coursework with ML, Algorithms, and OS, but I'm trying to get out of my comfort zone :).
+            I'm currently a CS Senior @ Purdue, graduating May 2024! 
+            In my final semester of CS, I'm hoping to learn a bunch more about fundamental CS topics, specifically Compilers and Databases. 
+            In the past, I really enjoyed coursework with ML, Algorithms, as well as OS - hoping to continue getting out of my comfort zone learning.
 
-            Professionally I've been all over the place, I've recently just completed an internship at Tesla where I worked as a full-stack dev on the Energy Product Software Team.
-            I have realized that I learn best by doing, and my 'doing'-focuses primarily on my foundations of CS until I graduate, and hopefully tackling fun problems aftewards!
+            Professionally I've been all over the place, I've recently just completed an internship at Tesla where I worked as a full-stack dev on the Energy Product Software Team. 
+            Previously I've interned at NASA working on Computer Vision for drones, AWS for application platforms for Machine Learning, and I've been a TA for my University's Computer Architecture course.
+
+            Focus is a funny thing, I've realized less is more and learning happens best by doing, I'm hoping to build my foundations of CS until I graduate and use that knowledge to tackle fun problems from there on!
         skills:
             enable: true
             title: "Here's some tech I've picked up along the way:"
@@ -170,11 +172,11 @@ params:
                 - "C/C++/x86 Assembly"
                 - "Java"
                 - "Typescript/Javascript"
-                - "React"
+                - "React/Next.JS/Jest"
                 - "Node"
                 - "Express/Fastify"
                 - "Tensorflow, PyTorch"
-                - "Docker"
+                - "Docker/NGINX"
 
     # Experience
     experience:
@@ -194,8 +196,9 @@ params:
                   url: "https://example.com"
               content: |
                   Currently I'm an intern on Tesla's energy division. I worked on separate aspects of Energy's Commercial UI's, including:
-                  - I worked on internal tools for the supercharger network
-                  - Built a full-stack analytics collection service for Tesla's energy products.
+                  - Developed internal tools for the supercharger network, think Google Maps for the health and expansion of superchargers.
+                  - Built a analytics collections service for all of Tesla's frontend energy products. Learned lots about working inbetween teams and launching platform-agnostic services.
+                  - Moved fast and broke (possibly too many) things :^)
 
             - job: "Computer Vision Intern"
               company: "NASA"
@@ -227,7 +230,7 @@ params:
                   content: Built sideloading service that reduces wait times by 70%.
               content: |
                   Interned on [AWS Panorama](https://aws.amazon.com/panorama/) on the application platform team. Helped to reduce deployment times for ML applications.
-                    - Introduced a sideloading feature that reduces wait times by 70%
+                    - Introduced a sideloading feature that reduces wait times by 70%. Aimed to improve developer experience with an simpler, more efficient interface for Panorama
                     - Built a device-side server that manages internal device state while receiving customer data
                   Sideloading is now live and accessible on [AWS Docs](https://docs.aws.amazon.com/panorama/latest/dev/panorama-samples.html#samples-more).
 
@@ -298,7 +301,7 @@ params:
         content: "More on github!"
         items:
             - title: Airdraw
-              content: A vision based drawing application. Debuted at /#4 on Hacker News, still very open ended about application of software.
+              content: A vision based drawing application. Debuted at number 4 on Hacker News, and got lots of great feedback about what people like.
               image: images/projects/airdraw_demo.gif
               featured:
                   name: Live Link
