@@ -1,3 +1,4 @@
+set -e
 
 # delete everything
 rm -rf ./public
