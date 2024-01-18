@@ -8,7 +8,7 @@ hugo
 
 cd public
 git init
-git remote add origin https://github.com/arefmalek/arefmalek.github.io
+git remote add origin git@github.com:arefmalek/arefmalek.github.io.git
 git add .
 git commit -m "deployment"
 git push -f origin master
