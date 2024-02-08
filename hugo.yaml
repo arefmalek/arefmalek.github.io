@@ -335,14 +335,14 @@ params:
               image: /images/projects/sorting_visualizer.gif
               featured:
                   name: Live link
-                  link: https://arefmalek.github.io/sorting_viz
+                  link: https://arefmalek.github.io/Sorting_Visualizer/
               badges:
                   - "Javascript"
                   - "HTML"
                   - "CSS"
               links:
                   - icon: fab fa-github
-                    url: https://arefmalek.github.io/Sorting_Visualizer/
+                    url: https://github.com/arefmalek/Sorting_Visualizer
 
     #Contact
     contact:
