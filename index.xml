@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aref Malek</title>
+    <link>https://arefmalek.github.io/</link>
+    <description>Recent content on Aref Malek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://arefmalek.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcoding</title>
+      <link>https://arefmalek.github.io/blogs/2024-01-18-leetcoding/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2024-01-18-leetcoding/</guid>
+      <description>reference for later, just documenting LC journey as I embark on it again
+Backtracking It&amp;rsquo;s like DFS but where we track the state as well, I really really liked this Leetcode card
+Problems and why I think they matter
+picking up the template https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/ https://leetcode.com/problems/word-search/description/ this one requires an additional structure!
+Optimizing pruning strategy: https://leetcode.com/problems/n-queens/description/ https://leetcode.com/problems/combination-sum/submissions/1145152116/ https://leetcode.com/problems/subsets-ii/submissions/1145139692/
+Fundamental Graphs Super important as this structure is actually used in real life. I sometimes imagine what it would be like to solve one of these for starlink or something haha.</description>
+    </item>
+    
+    <item>
+      <title>ideas lab</title>
+      <link>https://arefmalek.github.io/blogs/2023-02-14-ideas_lab/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2023-02-14-ideas_lab/</guid>
+      <description>Why? I joined a research lab! I&amp;rsquo;m putting this up so it&amp;rsquo;s public, and that I can force myself to actually work on this so I will document what&amp;rsquo;s going on here
+Reading I had to do this a lot, and albeit not being the best, I think there are a quick few things that I think are worth mentioning.
+Don&amp;rsquo;t expect to understand everything It&amp;rsquo;s such a backwards way from how we do school reading.</description>
+    </item>
+    
+    <item>
+      <title>quotes 2023</title>
+      <link>https://arefmalek.github.io/blogs/2023-01-25-quotes_2023/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2023-01-25-quotes_2023/</guid>
+      <description>&amp;ldquo;I have only made this letter longer because I have not had the time to make it shorter&amp;rdquo; - Blaise Pascal
+&amp;ldquo;One thing I learned about life is that you always get backpay eventually. Can&amp;rsquo;t escape your karma, good or bad&amp;rdquo; - Nip Hussle
+&amp;ldquo;Learning how to think really means learning how to exercise control over how and what you think.&amp;rdquo; - unknown
+&amp;ldquo;This is the freedom of being well-adjusted, of learning how to be &amp;lsquo;well-adjusted.</description>
+    </item>
+    
+    <item>
+      <title>Image Gallery</title>
+      <link>https://arefmalek.github.io/gallery/</link>
+      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
+      
+      <guid>https://arefmalek.github.io/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quotes 2022</title>
+      <link>https://arefmalek.github.io/blogs/2022-05-12-quotes_2022/</link>
+      <pubDate>Mon, 03 Jan 2022 02:39:30 +1200</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2022-05-12-quotes_2022/</guid>
+      <description>Anyone that&amp;rsquo;s been on FaceTime with me this past year knows I keep a wall of quotes on the back of my dorm (they&amp;rsquo;re the post-it notes in this example). Most are of the quotes are from rappers, some are from business leaders I admire, all of them serve the purpose of inspiring me whenever I look back at my wall.
+I made the stupid move of NOT keeping them with me when I was moving out of my dorm, so I&amp;rsquo;m writing up some of the ones I can remember, and will probably just write up new quotes here from now on.</description>
+    </item>
+    
+    <item>
+      <title>Sorting Visualizer</title>
+      <link>https://arefmalek.github.io/blogs/2021-11-06-sorting-visualizer/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-11-06-sorting-visualizer/</guid>
+      <description>With school and a hunt for a job going on, it&amp;rsquo;s been a struggle to find time for projects, but I&amp;rsquo;m really glad I got to make this! This project was definitely one of my bigger introductions to Javascript (and possibly more appropriately, my entry to the &amp;ldquo;I hate Javascript&amp;rdquo; club). That being said there were three difficult parts of the project:
+1. Drawing random arrays Since this was a little bit more of an introduction to JS for me, I decided to make this project with canvas.</description>
+    </item>
+    
+    <item>
+      <title>Revamped my site with Vue.js</title>
+      <link>https://arefmalek.github.io/blogs/2021-06-05-vue/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-06-05-vue/</guid>
+      <description>As a follow up to my prior post on a revamped website, I did it! I&amp;rsquo;m not going to lie, I&amp;rsquo;m sure there are tons of optimizations to make, but I&amp;rsquo;m really glad I did it - I had a feeling that learning any Javascript Framework would be of value, so I&amp;rsquo;m glad I finally picked up on it.
+With that being said, it was tons of fun, and I can really see the merit in taking a component-based approach to a website - instead of constantly stressing over how certain elements will add in the flow / design of a site, it is really refreshing just to have the site work in pure sections, and we get to pick and choose which components go where.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Shell Scripts</title>
+      <link>https://arefmalek.github.io/blogs/2021-05-17-hello-shell/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-05-17-hello-shell/</guid>
+      <description>Recently I have been experimenting with new ways to document the stuff I write and although I&amp;rsquo;m hesitant to say it&amp;rsquo;s the best, I have the most hope for Jekyll so far as it&amp;rsquo;s been the most straightforward route for me to set up something easy to record my processes.
+I would try to write something unique on this topic, but truthfully this article has everything you really need and some more.</description>
+    </item>
+    
+    <item>
+      <title>Plans for Personal Site renovation</title>
+      <link>https://arefmalek.github.io/blogs/2021-05-14-personal-site/</link>
+      <pubDate>Fri, 14 May 2021 18:52:00 -0700</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-05-14-personal-site/</guid>
+      <description>NOTE: I consider myself a beginner to the webdev scene (I have like all of 300-400 lines of HTML / CSS code of experience) so I don&amp;rsquo;t really intend to write this with any sort of bravado, just a way to put out my thoughts (and also as a reminder to actually do the work of rewriting the website).
+I tell the story fairly often about how I wrote my portfolio site without Javascript (mainly because I didn&amp;rsquo;t bother to try picking it up at the time) pretty often but as I begin to explore some of the more structured web delivery methods, I am really considering switching things up.</description>
+    </item>
+    
+    <item>
+      <title>Creating my own Blockchain in Java</title>
+      <link>https://arefmalek.github.io/blogs/2021-05-09-blockchain/</link>
+      <pubDate>Sun, 09 May 2021 15:30:00 -0700</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-05-09-blockchain/</guid>
+      <description>A couple of weeks ago I watched a 3b1b video which basically presented the idea of Blockchain as nothing more than a publicly available information where the validity of the currency is based on cryptography, namely the SHA-2 Algorithm. Truthfully, I didn&amp;rsquo;t believe the idea was that simple until I tried to code it myself.
+I believe what he had to say and here&amp;rsquo;s why. In the block chain data structure there are really 3 parts that I consider important - the transactions, the Block (duh) and the nonce.</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://arefmalek.github.io/blogs/2021-03-18-hello-world/</link>
+      <pubDate>Thu, 18 Mar 2021 21:30:00 -0700</pubDate>
+      
+      <guid>https://arefmalek.github.io/blogs/2021-03-18-hello-world/</guid>
+      <description>This will probably be a mess, but I finally got something up and running! I&amp;rsquo;ve been meaning to write find some medium to express more of what I have on my mind for a while now and although it&amp;rsquo;s a may seem a little lame to settle on a blog, I really am glad I got it done.
+As far as future plans and whatnot goes, I&amp;rsquo;ve got my eyes on a couple of projects right now and I&amp;rsquo;m hoping I&amp;rsquo;ll find a way to land them soon.</description>
+    </item>
+    
+  </channel>
+</rss>
