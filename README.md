@@ -1,15 +1,10 @@
-# Hugo version of the website
+# arefmalek.com
 
-Shouldve done this earlier, really liked this idea. Combines blog with my current resume type website, and it looks kinda flexible
+Plain HTML + CSS, no build step, no generator. Edit the files, commit, done.
 
-## Setting up:
+- `index.html` — homepage
+- `style.css` — shared stylesheet
+- `blog/` — `index.html` is the post list, one file per post
+- `CNAME` — custom domain for GitHub Pages
 
-make sure to do the submodule thing (should be in .gitmodules):
-
-```
-git rm --cached themes/hugo-profile
-
-git submodule add https://github.com/gurusabarish/hugo-profile themes/hugo-profile
-```
-
-Have fun!
+To preview locally: `python3 -m http.server` from the repo root, then open `http://localhost:8000/`.
