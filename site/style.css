@@ -68,7 +68,7 @@ p {
     margin: 0 0 1rem;
 }
 
-a {
+a:link, a:visited {
     color: var(--link);
     text-decoration: underline;
     text-decoration-color: var(--rule);
