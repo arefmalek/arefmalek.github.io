@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experimenting with Shell Scripts — Aref Malek</title>
+<link rel="icon" href="/icons/sapling.png">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+    <nav class="crumb"><a href="/blog/">← blog</a></nav>
+    <h1>Experimenting with Shell Scripts</h1>
+    <p class="meta">2021-05-22</p>
+
+    <p>Recently I have been experimenting with new ways to document the stuff I
+    write and although I'm hesitant to say it's the best, I have the most hope
+    for Jekyll so far as it's been the most straightforward route for me to set
+    up something easy to record my processes.</p>
+
+    <p>I would try to write something unique on this topic, but truthfully this
+    <a href="https://ndench.github.io/jekyll/setup-jekyll-on-github-pages">article</a>
+    has everything you really need and some more. The only thing I will mention
+    about my experience with setting up Jekyll is that I have had to run
+    <code>bundle add webrick</code>, which is just another gem (think library in
+    other programming languages) that would ensure our environment will deploy
+    correctly.</p>
+
+    <p>The real fun thing I wanted to leave here was a shell script I have been
+    experimenting with to help me out a little bit. I am no stranger to running
+    shell scripts (it's one of the things about Linux I really enjoy, all of the
+    setup is so satisfying when it goes smoothly), but now it was time for me to
+    start automating to improve my experience.</p>
+
+    <p>I'll paste everything below, but I'll try and explain line by line what's
+    going on.</p>
+
+    <pre><code>#!/bin/zsh
+
+title=$1
+date=`date +'%Y-%m-%d'`
+fname="$date-$title.md"
+
+echo "---
+type: post
+title: $title
+date: $date
+---
+" > $fname
+
+nvim $fname</code></pre>
+
+    <p>I should preface this by saying that although it's not a whole lot, really
+    all of 5 commands, I wanted to share this because I find it fascinating that
+    I can encapsulate a 30-second thinking process in 5 lines, solving the
+    problem (hopefully forever).</p>
+
+    <p><code>title=$1</code> This line involves the command line arguments! This
+    essentially makes it so that if I ran <code>sh new.sh pog</code>,
+    <code>title</code> would be equivalent to <code>pog</code>. The reason we
+    are using the 1 index instead of the 0th index is because the 0th index is
+    the name of the shell script (here it is new.sh).</p>
+
+    <p><code>date=`date +'%Y-%m-%d'`</code> Similar to before, all we are really
+    doing in this line is storing a variable, but this one has a little bit of
+    flavor. This command really gets its power from the <code>date</code>
+    command. If you want to experiment in
+    <a href="https://www.onlinegdb.com/online_bash_shell">shell</a>, you can
+    start by seeing the progression of these commands</p>
+
+    <pre><code>echo "hello world!";
+echo "$(date)";
+echo "`(date +'%Y')`";
+echo "`(date +'%Y-%m-%d')`";</code></pre>
+
+    <p>should output something like</p>
+
+    <pre><code>hello world!
+Sat May 22 06:40:55 UTC 2021
+2021
+2021-05-22</code></pre>
+
+    <p><code>echo</code> is just the equivalent of a print statement for the
+    terminal, but what I want to stress here are the last two commands. We can
+    see from the second command that this <code>date</code> command gives us
+    all the information needed in order to format a jekyll post, but you can
+    also specifically pick out the information that jekyll needs for a post
+    with the % specifics.</p>
+
+    <p><code>fname="$date-$title.md"</code> This is the final variable being
+    set, to be honest I really just assigned this because I was bored and
+    didn't want to rewrite the quotation marks, date, and title again later
+    on.</p>
+
+    <pre><code>echo "---
+type: post
+title: $title
+date: $date
+---
+" > $fname</code></pre>
+
+    <p>Truthfully, I think you have all the information to see this one works,
+    just know that the <code>&gt;</code> operator just means that instead of
+    printing to the terminal, that infomation is stored in the filename (which
+    was defined above). Feel free to experiment on the
+    <a href="https://www.onlinegdb.com/online_bash_shell">shell</a> available if
+    you're interested.</p>
+
+    <p><code>nvim $fname</code> Now it's time to write! I just have the shell
+    open up a neovim window for me to start writing up an article.</p>
+
+    <p>This might have been a little bit extra for so small of a shell script,
+    but this was a cute thing I wrote up that I just felt like sharing. This is
+    a blog after all :)</p>
+</main>
+</body>
+</html>
